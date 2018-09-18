@@ -4,9 +4,7 @@ body {
   height: 120vh;
   color:white;
 }
-nav {
-    font-family: 'Josefin Sans', sans-serif;
-}
+
 .textbox {
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 10vh;
@@ -59,4 +57,17 @@ button:hover  {
   cursor: pointer;
   font-size: 1.1em;
   padding:9px;
+}
+/* end index.html stylings */
+
+/* begin menu.html stylings */
+nav {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menubody {
+  background-image: url("img/grey_wash_wall.png");
+  background-size: auto;
+  background-repeat: repeat;
+
 }
