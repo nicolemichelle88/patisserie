@@ -80,18 +80,17 @@ nav {
 /* end general stylings */
 
 /* sidebar stylings */
-aside {
+.sidebar {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
     position: fixed;
-    z-index: 1;
-    top: 0;
+
 }
 
 hr {
-  background-color: white;
+  background-color: grey;
   width: 10vw;
-  margin-left: 0;
+  margin-left: 10px;
 }
 
 li {
@@ -105,5 +104,35 @@ padding: 10px;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
     height: 100vh;
+    margin-left: 26vw;
+}
+
+a {
+  color: white;
+}
+
+h3 {
+  margin-top: 10vh;
+
+  text-decoration: underline;
+}
+
+h5{
+
+  color: #ffc2b3;
+}
+
+.order {
+  width: 200px;
+
+}
+
+.menuitem{
+  margin-top: 8vh;
+}
+
+.menudivider {
+  width: 50%;
+  align-self: center;
 }
 /* end menusection */
