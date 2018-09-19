@@ -61,6 +61,7 @@ button:hover  {
 /* end index.html stylings */
 
 /* begin menu.html stylings */
+/* general stylings */
 nav {
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -69,5 +70,40 @@ nav {
   background-image: url("img/grey_wash_wall.png");
   background-size: auto;
   background-repeat: repeat;
-
 }
+
+.menu {
+  margin-top: 20vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 75px;
+}
+/* end general stylings */
+
+/* sidebar stylings */
+aside {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+hr {
+  background-color: white;
+  width: 10vw;
+  margin-left: 0;
+}
+
+li {
+list-style: none;
+padding: 10px;
+}
+/* end sidebar */
+
+/* start menusection */
+.menusection{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    height: 100vh;
+}
+/* end menusection */
