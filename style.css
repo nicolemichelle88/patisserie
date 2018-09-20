@@ -151,9 +151,13 @@ h5{
   font-style: italic;
 }
 
-h4 {
+.crepes {
   margin-top: 10vh;
   text-decoration: underline;
+}
+
+img{
+  width: 20vw;
 }
 
 /* end menusection */
