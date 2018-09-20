@@ -91,6 +91,7 @@ hr {
   background-color: grey;
   width: 10vw;
   margin-left: 10px;
+
 }
 
 li {
@@ -132,6 +133,27 @@ h5{
 }
 
 .menudivider {
-  width: 50%;
+  width: 85%;
+  margin-left: 8%;
+  margin-top: 5vh;
 }
+
+.menusection {
+  height: 100%;
+}
+
+.lastitem {
+  margin-bottom: 10vh;
+}
+
+.disclaimer {
+  color:tomato;
+  font-style: italic;
+}
+
+h4 {
+  margin-top: 10vh;
+  text-decoration: underline;
+}
+
 /* end menusection */
