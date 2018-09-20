@@ -3,6 +3,7 @@ body {
   background-size: cover;
   height: 120vh;
   color:white;
+  position: relative;
 }
 
 .textbox {
@@ -160,4 +161,47 @@ img{
   width: 20vw;
 }
 
+.petit {
+  width: 10vw;
+}
 /* end menusection */
+/* location */
+
+.location {
+  margin-top: 30vh;
+  width: 50vw;
+}
+
+.gmap_canvas {
+  margin-left: 2vw;
+}
+
+.hours {
+  margin-top: 0;
+}
+
+/* contact form stylings */
+
+.my_php {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 14pt;
+      margin-left:
+  }
+  .my_input {
+      margin-bottom: 20px;
+  }
+  .my_email {
+      margin-left: 30px;
+      margin-bottom: 30px;
+  }
+  input {
+      color: black;
+  }
+  textarea {
+      color: black;
+  }
+  .my_button {
+      color: black;
+      margin-top: 10px;
+      margin-bottom: 75px;
+  }

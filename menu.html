@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="menubody">
+<body class="menubody" data-spy="scroll" data-target=".dropdown-menu">
     <!-- navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">La P&acirc;tisserie by Oven-Fresh Delights</a>
@@ -37,24 +37,24 @@
        Menu
           </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Breakfast & Lunch</a>
-                        <a class="dropdown-item" href="#">Croissants & Pastries</a>
-                        <a class="dropdown-item" href="#">Cakes</a>
-                        <a class="dropdown-item" href="#">Petit Fours</a>
-                        <a class="dropdown-item" href="#">Macarons Parisiens</a>
+                        <a class="dropdown-item" href="#bfast">Breakfast & Lunch</a>
+                        <a class="dropdown-item" href="#croissant">Croissants & Pastries</a>
+                        <a class="dropdown-item" href="#cake">Cakes</a>
+                        <a class="dropdown-item" href="#petit">Petit Fours</a>
+                        <a class="dropdown-item" href="#macarons">Macarons Parisiens</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Gifts & Online Orders</a>
+                        <a class="dropdown-item" href="#gifts">Gifts & Online Orders</a>
                     </div>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Location & Hours</a>
+                    <a class="nav-link" href="location.html">Location & Hours</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About the Chef</a>
+                    <a class="nav-link" href="about.html">About the Chef</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -70,13 +70,13 @@
             <div class="col-sm-3 sidebar d-none d-md-block">
                 <aside>
                     <ul>
-                        <li><a href="#">Breakfast & Lunch</a></li>
-                        <li><a href="#">Croissants & Pastries</a></li>
-                        <li><a href="#">Cakes</a></li>
-                        <li><a href="#">Petit Fours</a></li>
-                        <li><a href="#">Macarons Parisiens</a></li>
+                        <li><a href="#bfast">Breakfast & Lunch</a></li>
+                        <li><a href="#croissant">Croissants & Pastries</a></li>
+                        <li><a href="#cake">Cakes</a></li>
+                        <li><a href="#petit">Petit Fours</a></li>
+                        <li><a href="#macarons">Macarons Parisiens</a></li>
                         <hr />
-                        <li><a href="#">Gifts & Online Orders</a></li>
+                        <li><a href="#gifts">Gifts & Online Orders</a></li>
                     </ul>
                 </aside>
             </div>
@@ -89,13 +89,7 @@
     </div>
     <!-- endspacer -->
     <!-- start breakfast & lunch -->
-    <section class="col-md-8 menusection">
-        <div class="text-center button">
-            <button class="order"><a target="_blank" href="https://squareup.com/store/la-patisserie-by-oven-fresh-delights">ORDER ONLINE!</a></button>
-        </div>
-
-        <hr class="menudivider" />
-
+    <section class="col-md-8 menusection"  id="bfast">
         <div class="breakfast">
           <div>
               <h3>Breakfast</h3>
@@ -112,9 +106,13 @@
                   omelette, topped with prosciutto & cheese, with potatoes gratin & croissant
               </p>
               <h5 class="menuitem">French Toast</h5>
-              <p class="lastitem">
+              <p>
                   thick sliced brioche, topped with fresh fruits, chantilly, powdered sugar. Choice of coffee, tea, or orange juice (please note: the bread is not dip in eggs, but drizzled with your choice of chocolate, raspberry or caramel sauce)
               </p>
+              <div class="text-center button lastitem">
+                  <button class="order"><a target="_blank" href="https://squareup.com/store/la-patisserie-by-oven-fresh-delights">ORDER ONLINE!</a></button>
+              </div>
+
 
           </div>
           <hr class="menudivider" />
@@ -143,7 +141,7 @@
               <h5 class="menuitem">Bacon & Egg Croissant</h5>
                 <p class="lastitem">
               Cheese optional
-            </p>
+                </p>
           </div>
           <hr class="menudivider" />
           <div>
@@ -185,10 +183,14 @@
                 <p>
                   Prosciutto, mozzarella & tomatoes
                 </p>
-                <p class="disclaimer lastitem">
+                <p class="disclaimer">
                   *Note: For vegetarians, meat is replaced with tomatoes & avocados on any of our
                   sandwiches. Just let us know.
                 </p>
+                <div class="text-center button lastitem">
+                    <button class="order"><a target="_blank" href="https://squareup.com/store/la-patisserie-by-oven-fresh-delights">ORDER ONLINE!</a></button>
+                </div>
+
           </div>
           <hr class="menudivider" />
           <div>
@@ -231,9 +233,12 @@
                       Shrimp, tomatoes, avocado, mushroom sauce
                     </p>
                   <h5 class="menuitem">Monaco</h5>
-                    <p class="lastitem">
+                    <p>
                       Salmon, tomatoes, avocado mushroom sauce
                     </p>
+              <div class="text-center button lastitem">
+                  <button class="order"><a target="_blank" href="https://squareup.com/store/la-patisserie-by-oven-fresh-delights">ORDER ONLINE!</a></button>
+              </div>
           </div>
               <hr class="menudivider" />
               <div>
@@ -247,7 +252,7 @@
                       Iced coffee, iced latte, iced cappuccino, iced tea, iced chocolate, orange juice, soda, Lorina Sparkling Lemonade, Perrier Sparkling Water, bottled water, juice box
                     </p>
               </div>
-              <hr class="menudivider" />
+              <hr class="menudivider"  id="croissant"/>
               <div>
                 <h3>Croissants (baked fresh daily!)</h3>
                   <h5 class="menuitem">Croissant au beurre (flaky butter croissant)</h5>
@@ -264,54 +269,228 @@
               <div>
                 <h3>Desserts & Pastries</h3>
 
-                    <h5 class="menuitem">Framboisier (gluten-free)</h5>
-                    <img src="img/framboisier.jpg" />
-                      <p>
-                        Layers of almond and hazelnut meringue surround raspberries suspended in pistachio butter cream
-                      </p>
-
-                    <h5 class="menuitem">Succès Praliné (gluten-free)</h5>
-                    <img src="img/praline.jpg" />
-                      <p>
-                        Layers of almond meringue, praline butter cream, and hazelnuts
-                      </p>
-
-                    <h5 class="menuitem">Tiramisu</h5>
-                    <img src="img/tiramisu.jpg" />
-                      <p>
-                        Ladyfinger sheets soaked with coffee liquor, layered with mascarpone mousse and topped with cocoa powder
-                      </p>
-
-                    <h5 class="menuitem">Lemon Bar</h5>
-                    <img src="img/lemonbar.jpg" />
-                      <p class="lastitem">
-                        Pastry crust filled with lemon curd, glazed with lemon
-                      </p>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h5 class="menuitem">Framboisier (gluten-free)</h5>
+                        <img src="img/framboisier.jpg" />
+                          <p>
+                            Layers of almond and hazelnut meringue surround raspberries suspended in pistachio butter cream
+                          </p>
+                      </div>
+                      <div class="col-md-6">
+                        <h5 class="menuitem">Succès Praliné (gluten-free)</h5>
+                        <img src="img/praline.jpg" />
+                          <p>
+                            Layers of almond meringue, praline butter cream, and hazelnuts
+                          </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h5 class="menuitem">Tiramisu</h5>
+                        <img src="img/tiramisu.jpg" />
+                          <p>
+                            Ladyfinger sheets soaked with coffee liquor, layered with mascarpone mousse and topped with cocoa powder
+                          </p>
+                      </div>
+                      <div class="col-md-6">
+                        <h5 class="menuitem">Lemon Bar</h5>
+                        <img src="img/lemonbar.jpg" />
+                          <p>
+                            Pastry crust filled with lemon curd, glazed with lemon
+                          </p>
+                      </div>
               </div>
-              <hr class="menudivider" />
+              <div class="text-center button lastitem">
+                  <button class="order"><a target="_blank" href="https://squareup.com/store/la-patisserie-by-oven-fresh-delights">ORDER ONLINE!</a></button>
+              </div>
+              <hr class="menudivider"  id="cake"/>
               <div>
-                <!-- cakes -->
+                <h3>Cakes</h3>
+                  <h4>We carry a wide range of cakes to suit a variety of tastes.</h4>
+                  <p class="disclaimer lastitem">
+                      Please order a few days ahead. The sooner the better! <br />
+                      *For 8 or more: from $32
+                  </p>
+                  <div class="row">
+                    <div class=" col-md-6">
+                      <h5 class="menuitem">Tahiti $39</h5>
+                      <img src="img/tahiti.jpg" />
+                        <p>
+                          Layers of coconut dacquoise, coco-mango mousse and raspberry-passion fruit coulis
+                        </p>
+                    </div>
+                    <div class=" col-md-6">
+                      <h5 class="menuitem">Branly $39</h5>
+                      <img src="img/branly.jpg" />
+                        <p>
+                          Layers of sponge cake, white chocolate amaretto mousse and peach coulis
+                        </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h5 class="menuitem">Dauphine $39</h5>
+                      <img src="img/dauphine.jpg" />
+                        <p>
+                          Layers of almond dacquoise, white chocolate mousse and raspberry coulis
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                      <h5 class="menuitem">Bercy (gluten-free) $42</h5>
+                      <img src="img/bercy.jpg" />
+                        <p>
+                        Layers of hazelnut dacquoise, vanilla mousse, praline mousse and chocolate mousse
+                        </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h5 class="menuitem">Clichy $39</h5>
+                      <img src="img/clichy.jpg" />
+                        <p>
+                        Layers of chocolate dacquoise, chocolate mousse and raspberry ganache
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                      <h5 class="menuitem">Mille-feuille (napoléon) $35</h5>
+                      <img src="img/napoleon.jpg" />
+                        <p>
+                      Layers of puff pastry filled with pastry cream with a touch of rum, topped with icing and finished with melted chocolate
+                        </p>
+                    </div>
+                  </div>
 
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h5 class="menuitem">Chocolate Hazelnut $39</h5>
+                      <img src="img/hazelnut.jpg" />
+                        <p>
+                        Layers of chocolate sponge filled with hazelnut mousse
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                      <h5 class="menuitem">Tiramisu $39</h5>
+                      <img src="img/tiramisu.jpg" />
+                        <p>
+                        Layers of ladyfinger sheets (soaked with coffee liquor) and mascarpone mousse, topped with cocoa powder and cream
+                        </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h5 class="menuitem">Opéra $39</h5>
+                      <img src="img/opera.jpg" />
+                        <p>
+                        Layers of almond sponge soaked with espresso, filled with ganache and coffee butter cream, topped with cream
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                      <h5 class="menuitem">Fraisier $32</h5>
+                      <img src="img/fraisier.jpg" />
+                        <p>
+                      Ladyfinger sheets soaked with cherry liqueur and layered with strawberries and cream
+                        </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h5 class="menuitem">Forêt Noire: Black Forest (gluten-free) $45</h5>
+                      <img src="img/forest.jpg" />
+                        <p>
+                        Layers of chocolate cake and whipped cream, stuffed with cherries, soaked in cherry brandy, and garnished with rosettes of whipping cream and chocolate
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                      <h5 class="menuitem">Paris-Brest $35</h5>
+                      <img src="img/parisbrest.jpg" />
+                        <p class="lastitem">
+                        Puff pastry with a praline cream filling, sprinkled with silvered almond.
+                        </p>
+                    </div>
+                  </div>
+              </div>
+              <div class="text-center button lastitem">
+                  <button class="order"><a target="_blank" href="https://squareup.com/store/la-patisserie-by-oven-fresh-delights">ORDER ONLINE!</a></button>
+              </div>
+              <hr class="menudivider"  id="petit" />
+              <div>
+                <h3>Petit Fours</h3>
+                <h5 class="menuitem">A mixture of mini-pastries.</h5>
+                <br />
+                  <p>
+                    1 dozen: $21, 2 dozen: $40, 3 dozen: $59
+                  </p>
+                  <br />
+                  <div class="row">
+                    <div class="col-md-6 text-center">
+                      <img class="petit" src="img/petitfours1.jpg" />
+                    </div>
+                    <div class="col-md-6">
+                      <img class="petit" src="img/petitfours2.jpg" />
+                    </div>
+                  </div>
+                  <div class="row lastitem">
+                    <div class="col-md-6 text-center">
+                      <img class="petit" src="img/petitfours3.jpg" />
+                    </div>
+                    <div class="col-md-6">
+                      <img class="petit" src="img/petitfours4.jpg" />
+                    </div>
+                  </div>
+              </div>
+              <hr class="menudivider"  id="macarons" />
+              <div>
+                <h3>Macarons Parisiens (gluten-free)</h3>
+                <h4>Thin, flavorful meringue cookies  sandwiched together with different fillings. They have a smooth, crisp shell and a moist, chewy interior.
+                Available daily! For any occasion, a treat to enjoy, to share or to offer.</h4>
+                <br />
+                <p class="disclaimer">
+                  Call or email for custom flavors & colors!
+                </p>
+                <h5 class="menuitem">Flavors: Chocolate, Raspberry, Coffee, Pistachio, Caramel, Lemon, Guava, Nutella.</h5>
+                <br />
+                <p>
+                  $1.75 a piece, $21 a dozen.
+                </p>
+                <br />
+                <div class="row">
+                  <div class="col-md-6 text-center">
+                    <img class="petit" src="img/tooffer.jpg" />
+                  </div>
+                  <div class="col-md-6">
+                    <img class="petit" src="img/toshare.jpg" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 text-center">
+                    <img class="petit" src="img/more1.jpg" />
+                  </div>
+                  <div class="col-md-6 lastitem">
+                    <img class="petit" src="img/more2.jpg" />
+                  </div>
+                </div>
+              </div>
+              <hr class="menudivider"  id="gifts" />
+              <div>
+                <h3>Online Ordering & Gifts</h3>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="text-center button lastitem">
+                        <button class="order"><a target="_blank" href="https://squareup.com/store/la-patisserie-by-oven-fresh-delights">ORDER ONLINE!</a></button>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="text-center button lastitem">
+                        <button class="order"><a target="_blank" href="https://squareup.com/gift/0A9ZVHAY1K71V/order">GIFT CERTIFICATES</a></button>
+                    </div>
+                  </div>
+                </div>
               </div>
         </div>
 
+
     </section>
-            <!-- end breakfast & lunch -->
-
-            <!-- start croissants & pastries -->
-            <!-- end croissants & pastries -->
-
-            <!-- start cakes -->
-            <!-- end cakes -->
-
-            <!-- start petit fours  -->
-            <!-- end petit fours  -->
-
-            <!-- start macarons -->
-            <!-- end macarons -->
-
-            <!-- start gifts & online orders -->
-            <!-- end gifts & online orders -->
         </div>
     </div>
     <!-- end content -->
@@ -320,6 +499,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>$('body').scrollspy({ target: '.dropdown-menu' })</script>
 </body>
-
 </html>
