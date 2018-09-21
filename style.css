@@ -221,8 +221,10 @@ img{
 
   @media only screen and (max-width: 767px){
     body {
-      background-image: url("img/gathering.jpg");
+      background-image: url("img/grey_wash_wall.png");
+      /* background-image: url("img/gathering.jpg"); */
       background-size: contain;
+
     }
 
     .textbox {
