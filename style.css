@@ -220,6 +220,14 @@ img{
   }
 
   @media only screen and (max-width: 767px){
+    body {
+      background-image: url("img/gathering.jpg");
+      background-size: contain;
+    }
+
+    .textbox {
+      background-color: rgba(0, 0, 0, 0.9);
+    }
     .patisserie {
       font-size: 2.5em;
     }
