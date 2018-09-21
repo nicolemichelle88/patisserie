@@ -183,17 +183,13 @@ img{
 /* contact form stylings */
 
 .my_php {
-      font-family: 'Open Sans Condensed', sans-serif;
       font-size: 14pt;
-      margin-left:
   }
+
   .my_input {
       margin-bottom: 20px;
   }
-  .my_email {
-      margin-left: 30px;
-      margin-bottom: 30px;
-  }
+
   input {
       color: black;
   }
@@ -209,12 +205,20 @@ img{
   .share {
     height: 25.8vh;
   }
+  .contact {
+    text-decoration: none;
+    margin-top :0;
+  }
 
 
   /* mobile stylings */
   @media only screen and (max-width: 1000px){
     button.navbar-toggler {
       margin-top: 0;
+    }
+
+    .my_message {
+      width: 40vw;
     }
 
   }
@@ -262,6 +266,12 @@ img{
     .location {
       width: 80vw;
     }
+
+    .my_message {
+      width: 60vw;
+    }
+
+
   }
 
   @media only screen and (max-width: 600px) {

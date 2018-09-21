@@ -64,19 +64,18 @@
     <section class="container textbox location">
       <div class="row text-center">
         <div class="contact_form col-md-12">
-                <h4>Questions? Contact us!</h>
+                <h3 class="oven contact">Questions? Contact us!</h3>
                 <br />
                 <br />
                         <form class="my_php" action="mail_handler.php" method="post">
-                            First Name:
-                            <input class="my_input" type="text" name="first_name">
-                            <br> Last Name:
-                            <input class="my_input" type="text" name="last_name">
-                            <br> Email:
-                            <input class="my_email" type="text" name="email">
-                            <br> Message:
+                            <input class="my_input" type="text" name="first_name" placeholder="First Name">
                             <br>
-                            <textarea class="my_message" rows="10" name="message" cols="40"></textarea>
+                            <input class="my_input" type="text" name="last_name" placeholder="Last Name">
+                            <br>
+                            <input class="my_email" type="text" name="email" placeholder="Email">
+                            <br>
+                            <br>
+                            <textarea class="my_message" rows="10" name="message" cols="40" placeholder="Type your message here"></textarea>
                             <br>
                             <input class="my_button" type="submit" name="submit" value="Submit">
                         </form>
