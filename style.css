@@ -163,6 +163,10 @@ img{
 .petit {
   width: 10vw;
 }
+
+.lecrepes {
+  margin-top: 2vh;
+}
 /* end menusection */
 /* location */
 
@@ -289,9 +293,11 @@ img{
       padding: 35px;
     }
     .menuitem {
-      margin-top: 2vh;
+      margin-top: 6.5vh;
     }
-
+    .lecrepes {
+      margin-top: 1vh;
+    }
     .menusection {
       margin-left: 0;
       width: 100%;
