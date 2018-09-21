@@ -274,8 +274,14 @@ img{
       font-size: 1em;
     }
 
+    .menu {
+      padding: 35px;
+    }
+
     .menusection {
       margin-left: 0;
+      width: 100%;
+      background-color: none;
     }
 
     .location {
