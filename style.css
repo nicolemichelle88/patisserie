@@ -209,3 +209,20 @@ img{
   .share {
     height: 25.8vh;
   }
+
+
+  /* mobile stylings */
+
+  @media only screen and (max-width: 900px){
+    .patisserie {
+      font-size: 3em;
+    }
+
+    .frontinfo {
+      font-size: 1em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+  }
