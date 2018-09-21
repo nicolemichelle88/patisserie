@@ -171,7 +171,7 @@ img{
 /* location */
 
 .location {
-  margin-top: 30vh;
+  margin-top: 13vh;
   width: 50vw;
 }
 
@@ -201,8 +201,12 @@ img{
   margin-bottom: 5vh;
 }
 
-.bio {
+.aboutimg {
+  margin-left: 0;
+}
 
+.bio {
+  padding: 0 5vw 0 5vw;
 }
 
 
@@ -319,7 +323,11 @@ img{
       width: 80vw;
     }
 
-    .my_message {
+    .bio {
+      padding: 0 12vw 0 12vw;
+    }
+
+    .my_message, .my_input, .my_email {
       width: 60vw;
     }
 
