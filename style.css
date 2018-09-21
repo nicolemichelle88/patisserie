@@ -17,7 +17,9 @@ body {
   display:none;
 }
 
-
+span {
+  font-size: 0.65em;
+}
 .patisserie {
   font-family: 'Homemade Apple', cursive;
   font-size: 4em;
@@ -336,7 +338,5 @@ img{
   }
 
   @media only screen and (max-width: 600px) {
-    span {
-      display: none;
-    }
+
   }
