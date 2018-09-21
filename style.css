@@ -231,7 +231,18 @@ img{
     .patisserie {
       font-size: 2.5em;
     }
+    img {
+      width: 40vw;
+      margin-left: 8vw;
+    }
+    .petit {
+      width: 40vw;
+    }
 
+    .mobilehide {
+      display: none;
+
+    }
     .frontinfo {
       font-size: 1em;
     }
