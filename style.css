@@ -258,6 +258,10 @@ img{
     .menusection {
       margin-left: 0;
     }
+
+    .location {
+      width: 80vw;
+    }
   }
 
   @media only screen and (max-width: 600px) {
