@@ -172,13 +172,29 @@ img{
   width: 50vw;
 }
 
-.gmap_canvas {
+/* .gmap_canvas {
   margin-left: 2vw;
-}
+} */
 
 .hours {
   margin-top: 0;
 }
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:80%;
+    position:absolute;
+    margin-left: 10%;
+}
+
 
 /* contact form stylings */
 
@@ -220,7 +236,6 @@ img{
     .my_message {
       width: 40vw;
     }
-
   }
 
   @media only screen and (max-width: 767px){
