@@ -270,6 +270,7 @@ img{
     }
     .petit {
       width: 40vw;
+      margin-left: 0;
     }
 
     .mobilehide {
