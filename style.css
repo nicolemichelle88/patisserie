@@ -74,7 +74,7 @@ nav {
 }
 
 .menu {
-  margin-top: 20vh;
+  margin-top: 12vh;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 75px;
 }
@@ -115,7 +115,6 @@ a {
 
 h3 {
   margin-top: 10vh;
-
   text-decoration: underline;
 }
 
@@ -270,12 +269,27 @@ img{
       font-size: 1.5em;
     }
 
+    h3 {
+      font-size: 1.25em;
+    }
+
+    h5 {
+      font-size: 1em;
+
+    }
+
+    p{
+      font-size: 0.90em;
+    }
     .navbar-brand {
       font-size: 1em;
     }
 
     .menu {
       padding: 35px;
+    }
+    .menuitem {
+      margin-top: 2vh;
     }
 
     .menusection {
