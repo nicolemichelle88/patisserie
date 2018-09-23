@@ -18,7 +18,10 @@ body {
 }
 
 span {
-  font-size: 0.65em;
+  font-size: 0.70em;
+}
+.navbar-brand {
+  font-size: 1.5em;
 }
 .patisserie {
   font-family: 'Homemade Apple', cursive;
@@ -205,6 +208,7 @@ img{
   margin-top: 0;
 }
 
+
 .map-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
@@ -267,12 +271,15 @@ img{
     text-decoration: none;
   }
 
-
+  .navbar-toggler {
+    width: 50px;
+  }
   /* mobile stylings */
   @media only screen and (max-width: 1000px){
     button.navbar-toggler {
       margin-top: 0;
     }
+
 
     .my_message {
       width: 40vw;
@@ -284,9 +291,7 @@ img{
       background-image: url("img/grey_wash_wall.png");
       background-size: contain;
     }
-    .navbar-toggler {
-      width: 15vw;
-    }
+
 
     .patisserie {
       font-size: 2.5em;
@@ -329,7 +334,7 @@ img{
       font-size: 1em;
     }
     .navbar-brand {
-      font-size: 1em;
+      font-size: 1.25em;
     }
 
     .menu {
@@ -346,7 +351,9 @@ img{
       width: 100%;
       background-color: none;
     }
-
+    .location {
+      width: 80vw;
+    }
 
 
     .bio {
@@ -357,9 +364,5 @@ img{
       width: 60vw;
     }
 
-
-  }
-
-  @media only screen and (max-width: 600px) {
 
   }
