@@ -290,6 +290,7 @@ img{
     body {
       background-image: url("img/grey_wash_wall.png");
       background-size: contain;
+      height: 100vh;
     }
     .front-textbox {
       margin-top: 5vh;
