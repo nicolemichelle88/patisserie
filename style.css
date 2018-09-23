@@ -26,7 +26,8 @@ span {
 }
 
 .oven {
-  font-family: 'Special Elite', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+
 }
 
 .info {
@@ -87,6 +88,8 @@ nav {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
     position: fixed;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
 
 }
 
@@ -104,6 +107,11 @@ padding: 10px;
 /* end sidebar */
 
 /* start menusection */
+
+.title {
+  font-family: 'Homemade Apple', cursive;
+  margin-top: 5vh;
+}
 .menusection{
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
@@ -117,14 +125,24 @@ a {
 
 h3 {
   margin-top: 10vh;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+
+
 }
 
 h5{
 
   color: #ffc2b3;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5em;
 }
-
+ p{
+     font-family: 'Josefin Slab', serif;
+     font-size: 1.2em;
+ }
 .order {
   width: 200px;
 
@@ -158,6 +176,11 @@ h5{
   text-decoration: underline;
 }
 
+h4{
+  font-family: 'Josefin Slab', serif;
+}
+
+
 img{
   width: 20vw;
 }
@@ -173,8 +196,8 @@ img{
 /* location */
 
 .location {
-  margin-top: 13vh;
   width: 50vw;
+  padding-top: 0;
 }
 
 
@@ -213,8 +236,11 @@ img{
 
 
 /* contact form stylings */
+  .contact_form {
+    padding-top: 1vh;
+  }
 
-.my_php {
+  .my_php {
       font-size: 14pt;
   }
 
@@ -239,7 +265,6 @@ img{
   }
   .contact {
     text-decoration: none;
-    margin-top :0;
   }
 
 
@@ -288,20 +313,20 @@ img{
     }
 
     h3 {
-      font-size: 1.25em;
+      font-size: 1.3em;
     }
 
     h4 {
-      font-size: 1.1em;
+      font-size: 1.2em;
     }
 
     h5 {
-      font-size: 1em;
+      font-size: 1.2em;
 
     }
 
     p{
-      font-size: 0.90em;
+      font-size: 1em;
     }
     .navbar-brand {
       font-size: 1em;
@@ -322,9 +347,7 @@ img{
       background-color: none;
     }
 
-    .location {
-      width: 80vw;
-    }
+
 
     .bio {
       padding: 0 12vw 0 12vw;
